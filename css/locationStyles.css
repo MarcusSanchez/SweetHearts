@@ -1,0 +1,101 @@
+.header {
+    font-weight: 900;
+    font-size: 3.5rem;
+    border-bottom: 2px #000 solid;
+    padding-bottom: 15px;
+    margin-bottom: 25px;
+}
+
+/* location */
+
+#location {
+    background-color: #fff;
+    padding: 4% 7% 2%;
+}
+
+.fa-location-dot {
+    scale: 80%;
+    padding-left: 4px;
+    color: #f0617b;
+}
+
+.location-paragraphs {
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+
+.location-directions-button:hover {
+    background-color: #f0617b;
+    border-color: #fff;
+    color: #fff;
+}
+
+.location-anchors {
+    color: #f0617b;
+}
+
+.location-anchors:hover {
+    color: blue;
+}
+
+.location-shc {
+    font-family: "featherly regular", sans-serif;
+    font-weight: 1000;
+    font-size: 2rem;
+    text-decoration: none;
+}
+
+.location-contact {
+    text-decoration: none;
+}
+
+.contact-shc {
+    text-decoration: underline;
+}
+
+/* hours of operation */
+
+#hours {
+    background-color: #fff;
+    padding: 4% 7% 2%;
+}
+
+.hours-header {
+    font-size: 1.5rem;
+}
+
+.hours-paragraphs {
+    font-size: 120%;
+}
+
+.hours-separator {
+    border-right: 2px #a2a2a2 solid;
+}
+
+.fa-clock {
+    scale: 80%;
+    padding-left: 4px;
+    color: #f0617b;
+}
+
+@media (max-width: 1310px) {
+
+    .fa-regular.fa-clock {
+        display: none;
+    }
+
+}
+
+@media (max-width: 1200px) {
+    .header.second-header {
+        text-align: center;
+    }
+}
+
+.hours-img {
+    border-radius: 20%;
+    max-height: 577px;
+    max-width: 857px;
+    display: block;
+    margin: auto;
+}

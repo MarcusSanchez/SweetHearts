@@ -1,0 +1,7 @@
+.header {
+    font-weight: 900;
+    font-size: 3.5rem;
+    border-bottom: 2px #000 solid;
+    padding-bottom: 15px;
+    margin-bottom: 25px;
+}

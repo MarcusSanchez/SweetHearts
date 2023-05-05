@@ -1,0 +1,43 @@
+/* about us */
+
+#about-us {
+    padding: 4% 7% 2%;
+}
+
+.header {
+    font-weight: 900;
+    font-size: 3.5rem;
+    border-bottom: 2px #f0617b solid;
+    padding-bottom: 15px;
+}
+
+.about-us-header {
+    text-align: center;
+}
+
+.fa-user {
+    scale: 80%;
+    padding-left: 4px;
+    color: #f0617b;
+}
+
+.about-us-first-section {
+    height: auto;
+    padding-top: 30px;
+}
+
+.circle-logo {
+    padding: 0 0 0 0;
+    height: 340px;
+    width: 340px;
+    display: block;
+    margin: auto auto 40px auto;
+    border-radius: 100%;
+}
+
+.about-us-paragraphs {
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+
+

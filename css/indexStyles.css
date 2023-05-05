@@ -1,0 +1,86 @@
+
+
+/* Opener Section */
+
+#opener {
+    padding: 4% 7% 2%;
+}
+
+.opener-container {
+    border: 4px #000 solid;
+    padding: 10px;
+}
+
+.opener-inner-container {
+    border: 8px #f0617b solid;
+    padding: 15px;
+}
+
+.opener-sentence {
+    font-weight: 900;
+    padding-left: 10px;
+    padding-right: 5px;
+    margin-right: 10px;
+}
+
+.opener-slogan {
+    font-size: 3.8vw;
+    font-weight: 900;
+}
+
+@media (max-width: 992px) {
+    .opener-slogan {
+        font-size: 7.5vw;
+    }
+
+    .whatever-2 {
+        font-size: 2rem;
+    }
+}
+
+
+.to-pink {
+    color: #f0617b;
+}
+
+.opener-button {
+    border: 3px #f0617b solid;
+    color: #f0617b;
+    font-weight: 900;
+}
+
+@media (max-width: 992px) {
+
+    .opener-sentence {
+        text-align: center;
+    }
+
+    .opener-button {
+        display: block;
+        margin: 10px auto;
+        text-align: center;
+    }
+}
+
+.opener-button:hover {
+    background-color: #f0617b;
+    border-color: #f0617b;
+}
+
+.nr-right {
+    display: flex;
+    justify-content: center;
+}
+
+.nurse-img {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+/* companies */
+
+#companies {
+
+}
