@@ -1,6 +1,6 @@
 function sendEmail() {
     Email.send({
-        SecureToken : "a1a49694-d0b4-4cdc-bebb-7baa82c25dbf",
+        SecureToken : "9d8e647a-ad51-4be8-a415-2c979818ba7e",
         To : 'contact@sweetheartscare.com',
         From : "contact@sweetheartscare.com",
         Subject : `New Contact Form Inquiry From: (${document.getElementById("email").value})`,
