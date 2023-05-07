@@ -5,3 +5,23 @@
     padding-bottom: 15px;
     margin-bottom: 25px;
 }
+
+/* Trainings */
+
+#trainings {
+    padding: 4% 7% 2%;
+}
+
+.trainings-header {
+    text-align: center;
+}
+
+.trainings-paragraphs {
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+
+.fa-heart {
+    padding-left: 4px;
+    color: #f0617b;
+}
