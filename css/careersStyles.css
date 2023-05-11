@@ -30,21 +30,6 @@
     object-fit: cover;
 }
 
-@media (min-width: 1700px) {
-
-    .nr-right {
-        position: relative;
-    }
-
-    .nurse-img {
-        object-fit: contain;
-        height: auto;
-        width: auto;
-        position: absolute;
-        margin: auto;
-    }
-}
-
 .reappear {
     display: none;
 }
@@ -85,5 +70,12 @@
     margin-bottom: 25px;
 }
 
-.requirement {
+#screaming-nurse {
+    display: none;
+}
+
+@media (max-width: 1199px) {
+    #screaming-nurse {
+        display: block;
+    }
 }
