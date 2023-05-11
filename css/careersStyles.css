@@ -21,16 +21,16 @@
 .nr-right {
     display: flex;
     justify-content: center;
-    align-items: center;
 }
 
 .nurse-img {
     max-width: 100%;
     max-height: 100%;
     border-radius: 10px;
+    object-fit: cover;
 }
 
-@media (min-width: 1202px) {
+@media (min-width: 1700px) {
 
     .nr-right {
         position: relative;
@@ -38,12 +38,10 @@
 
     .nurse-img {
         object-fit: contain;
+        height: auto;
+        width: auto;
         position: absolute;
         margin: auto;
-        top: 0;
-        bottom: 0;
-        left: 0;
-        right: 0;
     }
 }
 
