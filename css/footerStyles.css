@@ -26,10 +26,10 @@
 }
 
 .footer-hearts {
+    aspect-ratio: auto;
     width: 230px;
-    height: 115px;
     display: block;
-    margin: 20% 20% auto auto;
+    margin: auto;
 }
 
 .company-info-anchor {
