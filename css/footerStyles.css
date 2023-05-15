@@ -90,19 +90,6 @@
 
 }
 
-.footer-heading {
-    font-size: 1.5rem;
-}
-
-.footer-secondary-heading {
-    font-size: 1rem;
-}
-
-.footer-paragraph {
-    font-size: 1rem;
-}
-
-
 @media (max-width: 450px) {
     .footer-heading {
         font-size: 1.4rem;
@@ -120,21 +107,12 @@
         font-size: 1.2rem;
     }
 
-    .footer-secondary-heading {
-        font-size: .8rem;
-    }
-
-    .footer-paragraph {
-        font-size: .8rem;
-    }
-
     .company-info-anchor {
-        font-size: .8rem;
         margin-bottom: 12px;
     }
 
     .margin-fix {
-        margin-bottom: 0px;
+        margin-bottom: 14px;
     }
 
 }
@@ -146,20 +124,20 @@
     }
 
     .footer-secondary-heading {
-        font-size: .7rem;
+        font-size: .9rem;
     }
 
     .footer-paragraph {
-        font-size: .7rem;
+        font-size: .9rem;
     }
 
     .company-info-anchor {
-        font-size: .7rem;
+        font-size: .9rem;
         margin-bottom: 8px;
     }
 
     .margin-fix {
-        margin-bottom: 0px;
+        margin-bottom: 14px;
     }
 }
 
@@ -168,21 +146,12 @@
         font-size: 1rem;
     }
 
-    .footer-secondary-heading {
-        font-size: .6rem;
-    }
-
-    .footer-paragraph {
-        font-size: .6rem;
-    }
-
     .company-info-anchor {
-        font-size: .6rem;
         margin-bottom: 4px;
     }
 
     .margin-fix {
-        margin-bottom: 0px;
+        margin-bottom: 14px;
     }
 }
 
@@ -191,19 +160,7 @@
         font-size: .9rem;
     }
 
-    .footer-secondary-heading {
-        font-size: .5rem;
-    }
-
-    .footer-paragraph {
-        font-size: .5rem;
-    }
-    .company-info-anchor {
-        font-size: .5rem;
-        margin-bottom: 0px;
-    }
-
     .margin-fix {
-        margin-bottom: 0px;
+        margin-bottom: 14px;
     }
 }

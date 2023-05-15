@@ -148,13 +148,13 @@ body {
 
 .menu-text {
     font-family: "Times New Roman", sans-serif;
+    font-size: 16px;
 }
 
 @media (max-width: 400px) {
     .nav-logo1 {
         font-size: 35px;
     }
-
 
     .nav-logo2 {
         font-size: 9px;
@@ -166,6 +166,15 @@ body {
 
     .nav-link {
         font-size: 22px;
+    }
+
+    .menu-text {
+        font-size: 14px;
+    }
+
+    .navbar-toggler-icon {
+        height: 2rem;
+        width: 2rem;
     }
 }
 
@@ -187,6 +196,14 @@ body {
         font-size: 20px;
     }
 
+    .menu-text {
+        font-size: 12px;
+    }
+
+    .navbar-toggler-icon {
+        height: 1.5rem;
+        width: 1.5rem;
+    }
 }
 
 @media (max-width: 305px) {
@@ -205,5 +222,9 @@ body {
 
     .nav-link {
         font-size: 18px;
+    }
+
+    .menu-text {
+        font-size: 10px;
     }
 }
