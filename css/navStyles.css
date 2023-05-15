@@ -151,7 +151,7 @@ body {
     font-size: 16px;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 410px) {
     .nav-logo1 {
         font-size: 35px;
     }
