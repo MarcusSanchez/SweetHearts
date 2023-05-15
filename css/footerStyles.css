@@ -32,17 +32,21 @@
     margin: auto;
 }
 
+@media (max-width: 1200px) {
+    .footer-hearts {
+        display: none;
+    }
+}
+
 .company-info-anchor {
     text-decoration: none;
     color: #fff;
+    font-size: 1rem;
+    padding-bottom: 16px;
+    margin-bottom: 16px;
 }
 
 .company-info-anchor:hover {
-    color: #f0617b;
-}
-
-.footer-heading {
-    padding-bottom: 10px;
     color: #f0617b;
 }
 
@@ -50,20 +54,24 @@
     color: #f0617b;
 }
 
-.footer-paragraph {
-    line-height: .5;
-}
-
-@media (max-width: 1200px) {
-    .footer-hearts {
-        display: none;
-    }
+.footer-heading {
+    padding-bottom: 5px;
+    color: #f0617b;
+    font-size: 1.5rem;
 }
 
 .footer-secondary-heading {
-    padding-bottom: 10px;
     color: #f0617b;
     font-size: 1rem;
+}
+
+.footer-paragraph {
+    margin-bottom: 8px;
+    font-size: 1rem;
+}
+
+.footer-contact {
+    padding-bottom: 5px;
 }
 
 .footer-ru-left {
@@ -80,4 +88,122 @@
         display: block;
     }
 
+}
+
+.footer-heading {
+    font-size: 1.5rem;
+}
+
+.footer-secondary-heading {
+    font-size: 1rem;
+}
+
+.footer-paragraph {
+    font-size: 1rem;
+}
+
+
+@media (max-width: 450px) {
+    .footer-heading {
+        font-size: 1.4rem;
+    }
+}
+
+@media (max-width: 420px) {
+    .footer-heading {
+        font-size: 1.3rem;
+    }
+}
+
+@media (max-width: 390px) {
+    .footer-heading {
+        font-size: 1.2rem;
+    }
+
+    .footer-secondary-heading {
+        font-size: .8rem;
+    }
+
+    .footer-paragraph {
+        font-size: .8rem;
+    }
+
+    .company-info-anchor {
+        font-size: .8rem;
+        margin-bottom: 12px;
+    }
+
+    .margin-fix {
+        margin-bottom: 0px;
+    }
+
+}
+
+@media (max-width: 360px) {
+    .footer-heading {
+        font-size: 1.1rem;
+        padding-bottom: 0;
+    }
+
+    .footer-secondary-heading {
+        font-size: .7rem;
+    }
+
+    .footer-paragraph {
+        font-size: .7rem;
+    }
+
+    .company-info-anchor {
+        font-size: .7rem;
+        margin-bottom: 8px;
+    }
+
+    .margin-fix {
+        margin-bottom: 0px;
+    }
+}
+
+@media (max-width: 330px) {
+    .footer-heading {
+        font-size: 1rem;
+    }
+
+    .footer-secondary-heading {
+        font-size: .6rem;
+    }
+
+    .footer-paragraph {
+        font-size: .6rem;
+    }
+
+    .company-info-anchor {
+        font-size: .6rem;
+        margin-bottom: 4px;
+    }
+
+    .margin-fix {
+        margin-bottom: 0px;
+    }
+}
+
+@media (max-width: 305px) {
+    .footer-heading {
+        font-size: .9rem;
+    }
+
+    .footer-secondary-heading {
+        font-size: .5rem;
+    }
+
+    .footer-paragraph {
+        font-size: .5rem;
+    }
+    .company-info-anchor {
+        font-size: .5rem;
+        margin-bottom: 0px;
+    }
+
+    .margin-fix {
+        margin-bottom: 0px;
+    }
 }
