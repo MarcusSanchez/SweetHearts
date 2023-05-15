@@ -178,11 +178,10 @@ body {
     }
 }
 
-@media (max-width: 350px) {
+@media (max-width: 360px) {
     .nav-logo1 {
         font-size: 30px;
     }
-
 
     .nav-logo2 {
         font-size: 8px;
@@ -206,7 +205,7 @@ body {
     }
 }
 
-@media (max-width: 305px) {
+@media (max-width: 315px) {
     .nav-logo1 {
         font-size: 25px;
     }
