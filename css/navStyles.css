@@ -44,7 +44,7 @@ body {
 
 @-moz-document url-prefix() {
     .nav-heart {
-      padding-left: 25px;
+        padding-left: 25px;
     }
 
     @media (max-width: 740px) {
@@ -83,7 +83,7 @@ body {
 
 .nav-link {
     color: #575757;
-    font-size: 1.5rem;
+    font-size: 24px;
 }
 
 .nav-link:hover {
@@ -150,3 +150,60 @@ body {
     font-family: "Times New Roman", sans-serif;
 }
 
+@media (max-width: 400px) {
+    .nav-logo1 {
+        font-size: 35px;
+    }
+
+
+    .nav-logo2 {
+        font-size: 9px;
+    }
+
+    .nav-heart {
+        height: 30px;
+    }
+
+    .nav-link {
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 350px) {
+    .nav-logo1 {
+        font-size: 30px;
+    }
+
+
+    .nav-logo2 {
+        font-size: 8px;
+    }
+
+    .nav-heart {
+        height: 25px;
+    }
+
+    .nav-link {
+        font-size: 20px;
+    }
+
+}
+
+@media (max-width: 305px) {
+    .nav-logo1 {
+        font-size: 25px;
+    }
+
+
+    .nav-logo2 {
+        font-size: 7px;
+    }
+
+    .nav-heart {
+        height: 20px;
+    }
+
+    .nav-link {
+        font-size: 18px;
+    }
+}
