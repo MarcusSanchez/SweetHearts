@@ -42,6 +42,11 @@ body {
     padding-left: 8px;
 }
 
+.nav-heart-2 {
+    margin-left: -20px;
+    margin-bottom: -5px;
+}
+
 @-moz-document url-prefix() {
     .nav-heart {
         padding-left: 25px;
